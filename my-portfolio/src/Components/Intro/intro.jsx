@@ -13,8 +13,8 @@ const Intro =()=>{
                     </span>
 
                 </div>
+<button className='button intro-btn'>Hire Me</button>
             </div>
-            <div className='button intro-btn'>Hire me</div>
             <div className='intro-right'>right side</div>
         </div>
     )
