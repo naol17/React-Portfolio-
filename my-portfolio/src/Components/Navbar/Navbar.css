@@ -34,3 +34,7 @@
     cursor: pointer;
     color: var(--orange);
 }
+
+.btn{
+    flex: 2;
+}

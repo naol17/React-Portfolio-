@@ -10,7 +10,7 @@ const Navbar = ()=>{
         </div>
         <div className='nav-right'>
             <div className='nav-list'>
-                <ul>
+                <ul style={{listStyleType:'none'}}>
                     <li>Home</li>
                     <li>Services</li>
                     <li>Portfolio</li>
@@ -18,7 +18,7 @@ const Navbar = ()=>{
 
                 </ul>
             </div>
-            <button className='btn'>Contact Me</button>
+            <button className='btn button'>Contact Me</button>
         </div>
     </div>
     )
