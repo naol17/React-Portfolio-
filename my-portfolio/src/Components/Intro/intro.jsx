@@ -1,5 +1,8 @@
 import React from 'react'
 import './Intro.css'
+import Github from '../../assets/img/github.png'
+import Insta from '../../assets/img/instagram.png'
+import linked from '../../assets/img/linkedin.png'
 
 const Intro =()=>{
     return(
@@ -14,6 +17,9 @@ const Intro =()=>{
 
                 </div>
 <button className='button intro-btn'>Hire Me</button>
+            </div>
+            <div>
+                
             </div>
             <div className='intro-right'>right side</div>
         </div>
