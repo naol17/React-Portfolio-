@@ -34,7 +34,7 @@ const Intro = () => {
         <img src={Vector2} />
         <img src={boy} />
 
-        <div>
+        <div style={{top:'-4%',left:'68%'}}>
           
           <Floatingdiv image={Crown} txt1 = 'web' txt2 = 'Developer'/>
         </div>
