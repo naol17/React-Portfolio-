@@ -1,11 +1,12 @@
 import React from 'react'
 
-const Floatingdiv = () =>{
+const Floatingdiv = ({image, txt1, txt2}) =>{
     return(
         <div className='floatingdiv'>
-            <span>Web
+            <img src={image}/>
+            <span>{txt1}
                 <br/>
-                Developer
+                {txt2}
             </span>
 
         </div>

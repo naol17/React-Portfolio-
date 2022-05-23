@@ -6,9 +6,9 @@ import linked from "../../assets/img/linkedin.png";
 import Vector1 from "../../assets/img/Vector1.png";
 import Vector2 from "../../assets/img/Vector2.png";
 import boy from "../../assets/img/boy-r.png";
-import crowun from "../../assets/img/crown.png";
+import Crown from "../../assets/img/crown.png";
 import thumbup from "../../assets/img/thumbup.png";
-import floatingdiv from "../Flotingdiv/flotingdiv";
+import Floatingdiv from "../Flotingdiv/flotingdiv";
 const Intro = () => {
   return (
     <div className="intro">
@@ -35,7 +35,8 @@ const Intro = () => {
         <img src={boy} />
 
         <div>
-          <floatingdiv />
+          
+          <Floatingdiv image={Crown} txt1 = 'web' txt2 = 'Developer'/>
         </div>
       </div>
     </div>
