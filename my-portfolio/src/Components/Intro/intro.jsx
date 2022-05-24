@@ -7,7 +7,8 @@ import Vector1 from "../../assets/img/Vector1.png";
 import Vector2 from "../../assets/img/Vector2.png";
 import boy from "../../assets/img/boy-r.png";
 import Crown from "../../assets/img/crown.png";
-import thumbup from "../../assets/img/thumbup.png";
+import Glassimo from "../../assets/img/glassesimoji.png"
+import Thumbup from "../../assets/img/thumbup.png";
 import Floatingdiv from "../Flotingdiv/flotingdiv";
 const Intro = () => {
   return (
@@ -32,11 +33,17 @@ const Intro = () => {
       <div className="intro-right">
         <img src={Vector1} />
         <img src={Vector2} />
+        
         <img src={boy} />
+        <img src={Glassimo}/>
 
-        <div style={{top:'-4%',left:'68%'}}>
+        <div style={{top:'-4%',left:'60%'}}>
           
           <Floatingdiv image={Crown} txt1 = 'web' txt2 = 'Developer'/>
+        </div>
+        <div style={{top:'18rem',left:'-1rem'}}>
+          
+          <Floatingdiv image={Thumbup} txt1 = 'Graphics' txt2 = 'Designer'/>
         </div>
       </div>
     </div>

@@ -10,7 +10,6 @@
 }
 .floatingdiv > img {
   transform: scale(0.4);
-  background: #000;
 }
 .floatingdiv > span {
   font-family: sans-serif;
