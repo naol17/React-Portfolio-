@@ -79,3 +79,16 @@
     top: -10%;
 
 }
+
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(70px);
+    z-index: -9;
+    top: -18%;
+    left: 56%;
+    
+}
