@@ -21,13 +21,23 @@ const Services = ()=>{
                 <div className="blur s-blurl" style={{background:'#abf1ff94'}}></div>
             </div>
             <div className="cards">
-                <div>
+                <div style={{left:'14rem'}}>
                    <Cards
                    emoji= {Herti}
                    heading ={'Design'}
-                   detail   ={'figma, Adobe illustrator, Premier Pro, Adobe Xd '}
+                   detail   ={['Figma,', '  Adobe Xd,','  Adobe Illustrator,','    Adobe premierPro'] }
+                   
                    />
                 </div>
+                <div style={{top:'12rem', left:'-4rem'}}>
+                   <Cards
+                   emoji= {Glass}
+                   heading ={'Dev'}
+                   detail   ={['Figma,', '  Adobe Xd,','  Adobe Illustrator,','    Adobe premierPro'] }
+                   
+                   />
+                </div>
+               
             </div>
 
         </div>
