@@ -17,7 +17,7 @@
 
 .card span:nth-of-type(2){
     color: var(--gray);
-    font-size:16px;
+    font-size:19px;
 }
 .card>img{
     transform: scale(0.6);
@@ -30,7 +30,7 @@ box-shadow: 0px 19px 60px 0px;
 border-radius: 7px;
 border: none;
 padding: 10px;
-font-size: 16p;
+font-size: 16px;
 color: #5290fd;
 }
 .cards{

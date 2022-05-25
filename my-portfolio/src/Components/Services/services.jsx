@@ -32,8 +32,16 @@ const Services = ()=>{
                 <div style={{top:'12rem', left:'-4rem'}}>
                    <Cards
                    emoji= {Glass}
-                   heading ={'Dev'}
-                   detail   ={['Figma,', '  Adobe Xd,','  Adobe Illustrator,','    Adobe premierPro'] }
+                   heading ={'Developer'}
+                   detail   ={['ReactJs,', '  React Native,','  Flutter,','    HTml,','CSS','Java Script',' Sql'] }
+                   
+                   />
+                </div>
+                <div style={{top:'19rem', left:'12rem'}}>
+                   <Cards
+                   emoji= {Humble}
+                   heading ={' UI/UX'}
+                   detail   ={['Figma,', '  Canva,','  Adobe XD,','    Adobe Illustrator,'] }
                    
                    />
                 </div>
