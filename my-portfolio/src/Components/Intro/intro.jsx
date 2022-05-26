@@ -24,9 +24,15 @@ const Intro = () => {
         </div>
         <button className="button intro-btn">Hire Me</button>
         <div className="intro-icon">
-          <img src={Github}></img>
-          <img src={Insta}></img>
-          <img src={linked}></img>
+          <a href="www.github.com/naol17">
+            <img src={Github}></img>
+          </a>
+          <a href="www.instagram.com/Naol Dame">
+            <img src={Insta}></img>
+          </a>
+          <a href="www.linkedin.com/naol dame">
+            <img src={linked}></img>
+          </a>
         </div>
       </div>
 
