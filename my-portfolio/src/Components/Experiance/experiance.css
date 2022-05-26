@@ -27,13 +27,13 @@
 .circle::before{
     border-radius: 100%;
     content: '';
-    background-image: linear-gradient(to bottom,#87e6fb 0%,#ffc);
+    background-image: linear-gradient(to bottom,#87e6fb 0%,#ffc05c 100%);
     top: -8px;
     left: -8px;
     bottom: -8px;
     right: -8px;
     position: absolute;
-    z-index: 1;
+    z-index: -1;
     box-shadow: var(--smboxShadow);
 
 

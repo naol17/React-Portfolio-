@@ -4,6 +4,7 @@ import Cards from "../cards/cards";
 import Glass from "../../assets/img/glasses.png";
 import Herti from "../../assets/img/heartemoji.png";
 import Humble from "../../assets/img/humble.png";
+import Resume from "../../assets/Resume (1).pdf";
 
 const Services = () => {
   return (
